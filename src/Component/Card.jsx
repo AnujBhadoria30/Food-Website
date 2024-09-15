@@ -15,7 +15,7 @@ function Card() {
     <>
       <div>
         {/* Render each RestaurantCard component with the correct props */}
-        <div className="flex gap-5">
+        <div className="flex gap-8">
 
         {cardItem.map((item, index) => (
           <RestaurantCard
